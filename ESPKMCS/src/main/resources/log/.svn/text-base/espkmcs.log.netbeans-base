@@ -1,0 +1,166 @@
+2013-09-17 15:30:28:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2013-09-17 15:30:28:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2013-09-17 15:30:28:INFO  [com.goldsign.esmcs.application.Application.startFileDownServer(Application.java:445)] - 启动文件下载服务线程！
+2013-09-17 15:30:28:INFO  [com.goldsign.esmcs.service.impl.CommuService.openCommu(CommuService.java:158)] - SOCKET通讯端口成功！
+2013-09-17 15:30:28:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:4
+2013-09-17 15:30:28:INFO  [com.goldsign.esmcs.service.impl.CommuService.downAuditAndErrorFile(CommuService.java:196)] - 下载审计和错误文件成功！
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:124
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryBlacklist(CommuService.java:360)] - 下载黑名单成功！
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:34
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.service.impl.CommuService.querySamlist(CommuService.java:405)] - 下载SAM列表成功！
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:14
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryParams(CommuService.java:236)] - 下载城市代码成功！
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:446
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryCardTypes(CommuService.java:315)] - 下载票种成功！
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:464
+2013-09-17 15:30:29:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryTicketPrice(CommuService.java:275)] - 下载票价成功！
+2013-09-17 15:30:31:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试2 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:30:38:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:5
+2013-09-17 15:30:38:INFO  [com.goldsign.esmcs.service.impl.CommuService.loginOperator(CommuService.java:90)] - 验证操作员成功！
+2013-09-17 15:30:38:INFO  [com.goldsign.esmcs.service.impl.CommuService.updateDeviceStatus(CommuService.java:638)] - 更改设备状态成功！
+2013-09-17 15:30:38:INFO  [com.goldsign.esmcs.application.Application.updateDeviceStatusLogin(Application.java:683)] - 更改设备状态成功!
+2013-09-17 15:30:42:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试1 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:30:44:INFO  [com.goldsign.esmcs.application.PKApplication.openEsChannelPort(PKApplication.java:164)] - 打开通道端口成功！
+2013-09-17 15:30:44:ERROR [com.goldsign.esmcs.service.impl.PkEsDeviceService.openBoxPort(PkEsDeviceService.java:61)] - 初始化票箱失败
+2013-09-17 15:30:44:ERROR [com.goldsign.esmcs.application.Application.openEsDevicePort(Application.java:581)] - 
+2013-09-17 15:30:53:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试0 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:30:54:INFO  [com.goldsign.esmcs.application.PKApplication.closeRwPort(PKApplication.java:314)] - 关闭读头端口成功！
+2013-09-17 15:30:54:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:721)] - 关闭读头端口成功！
+2013-09-17 15:30:55:INFO  [com.goldsign.esmcs.application.PKApplication.closeEsBoxPort(PKApplication.java:292)] - 关闭ES票箱端口成功！
+2013-09-17 15:30:55:INFO  [com.goldsign.esmcs.application.Application.closeEsDevicePort(Application.java:772)] - 关闭Es打印机端口成功！
+2013-09-17 15:30:55:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:729)] - 关闭ES端口成功！
+2013-09-17 15:30:55:INFO  [com.goldsign.esmcs.service.impl.CommuService.updateDeviceStatus(CommuService.java:638)] - 更改设备状态成功！
+2013-09-17 15:30:55:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:737)] - 更改设备成功！
+2013-09-17 15:30:55:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:745)] - 关闭通讯成功！
+2013-09-17 15:30:55:INFO  [com.goldsign.esmcs.application.Application.stopFileDownServer(Application.java:464)] - 停止文件下载服务线程！
+2013-09-17 15:30:55:ERROR [com.goldsign.esmcs.ftp.CommuFtp.threadSleep(CommuFtp.java:112)] - java.lang.InterruptedException: sleep interrupted
+2013-09-17 15:30:55:ERROR [com.goldsign.esmcs.ftp.CommuFtp.ftpGetFileSingle(CommuFtp.java:231)] - 重试3次后，Ftp 仍然不能连接或登陆127.0.0.1! 
+2013-09-17 15:30:55:ERROR [com.goldsign.esmcs.thread.ComFileDownThread.run(ComFileDownThread.java:98)] - com.goldsign.esmcs.exception.FileFtpException: 获取文件PRM107.0601.20130917.01       失败
+2013-09-17 15:41:14:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.application.Application.startFileDownServer(Application.java:468)] - 启动文件下载服务线程！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.service.impl.CommuService.openCommu(CommuService.java:158)] - SOCKET通讯端口成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:4
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.service.impl.CommuService.downAuditAndErrorFile(CommuService.java:196)] - 下载审计和错误文件成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:124
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryBlacklist(CommuService.java:360)] - 下载黑名单成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:34
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.service.impl.CommuService.querySamlist(CommuService.java:405)] - 下载SAM列表成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:14
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryParams(CommuService.java:236)] - 下载城市代码成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:446
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryCardTypes(CommuService.java:315)] - 下载票种成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:464
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryTicketPrice(CommuService.java:275)] - 下载票价成功！
+2013-09-17 15:41:14:INFO  [com.goldsign.esmcs.application.Application.startPhyLogicFileThread(Application.java:451)] - 启动物理卡号与逻辑卡号对照文件下载服务线程！
+2013-09-17 15:41:15:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试2 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:41:16:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试2 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:41:17:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:5
+2013-09-17 15:41:18:INFO  [com.goldsign.esmcs.service.impl.CommuService.loginOperator(CommuService.java:90)] - 验证操作员成功！
+2013-09-17 15:41:18:INFO  [com.goldsign.esmcs.service.impl.CommuService.updateDeviceStatus(CommuService.java:638)] - 更改设备状态成功！
+2013-09-17 15:41:18:INFO  [com.goldsign.esmcs.application.Application.updateDeviceStatusLogin(Application.java:706)] - 更改设备状态成功!
+2013-09-17 15:41:23:INFO  [com.goldsign.esmcs.application.PKApplication.openEsChannelPort(PKApplication.java:164)] - 打开通道端口成功！
+2013-09-17 15:41:23:ERROR [com.goldsign.esmcs.service.impl.PkEsDeviceService.openBoxPort(PkEsDeviceService.java:61)] - 初始化票箱失败
+2013-09-17 15:41:23:ERROR [com.goldsign.esmcs.application.Application.openEsDevicePort(Application.java:604)] - 
+2013-09-17 15:41:26:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试1 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:41:27:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试1 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:41:37:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试0 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:41:38:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试0 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.application.PKApplication.closeRwPort(PKApplication.java:314)] - 关闭读头端口成功！
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:744)] - 关闭读头端口成功！
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.application.PKApplication.closeEsBoxPort(PKApplication.java:292)] - 关闭ES票箱端口成功！
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.application.Application.closeEsDevicePort(Application.java:795)] - 关闭Es打印机端口成功！
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:752)] - 关闭ES端口成功！
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.service.impl.CommuService.updateDeviceStatus(CommuService.java:638)] - 更改设备状态成功！
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:760)] - 更改设备成功！
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:768)] - 关闭通讯成功！
+2013-09-17 15:41:47:INFO  [com.goldsign.esmcs.application.Application.stopFileDownServer(Application.java:487)] - 停止文件下载服务线程！
+2013-09-17 15:41:47:ERROR [com.goldsign.esmcs.ftp.CommuFtp.threadSleep(CommuFtp.java:112)] - java.lang.InterruptedException: sleep interrupted
+2013-09-17 15:41:47:ERROR [com.goldsign.esmcs.ftp.CommuFtp.ftpGetFileSingle(CommuFtp.java:231)] - 重试3次后，Ftp 仍然不能连接或登陆127.0.0.1! 
+2013-09-17 15:41:47:ERROR [com.goldsign.esmcs.thread.ComFileDownThread.run(ComFileDownThread.java:98)] - com.goldsign.esmcs.exception.FileFtpException: 获取文件PRM107.0601.20130917.01       失败
+2013-09-17 15:42:59:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.application.Application.startFileDownServer(Application.java:468)] - 启动文件下载服务线程！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.service.impl.CommuService.openCommu(CommuService.java:158)] - SOCKET通讯端口成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:4
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.service.impl.CommuService.downAuditAndErrorFile(CommuService.java:196)] - 下载审计和错误文件成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:124
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryBlacklist(CommuService.java:360)] - 下载黑名单成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:34
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.service.impl.CommuService.querySamlist(CommuService.java:405)] - 下载SAM列表成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:14
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryParams(CommuService.java:236)] - 下载城市代码成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:446
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryCardTypes(CommuService.java:315)] - 下载票种成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:464
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryTicketPrice(CommuService.java:275)] - 下载票价成功！
+2013-09-17 15:42:59:INFO  [com.goldsign.esmcs.application.Application.startPhyLogicFileThread(Application.java:451)] - 启动物理卡号与逻辑卡号对照文件下载服务线程！
+2013-09-17 15:43:00:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试2 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:01:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试2 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:03:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:5
+2013-09-17 15:43:03:INFO  [com.goldsign.esmcs.service.impl.CommuService.loginOperator(CommuService.java:90)] - 验证操作员成功！
+2013-09-17 15:43:03:INFO  [com.goldsign.esmcs.service.impl.CommuService.updateDeviceStatus(CommuService.java:638)] - 更改设备状态成功！
+2013-09-17 15:43:03:INFO  [com.goldsign.esmcs.application.Application.updateDeviceStatusLogin(Application.java:706)] - 更改设备状态成功!
+2013-09-17 15:43:08:INFO  [com.goldsign.esmcs.application.PKApplication.openEsChannelPort(PKApplication.java:164)] - 打开通道端口成功！
+2013-09-17 15:43:08:ERROR [com.goldsign.esmcs.service.impl.PkEsDeviceService.openBoxPort(PkEsDeviceService.java:61)] - 初始化票箱失败
+2013-09-17 15:43:08:ERROR [com.goldsign.esmcs.application.Application.openEsDevicePort(Application.java:604)] - 
+2013-09-17 15:43:11:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试1 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:12:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试1 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:22:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试0 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:23:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试0 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:32:ERROR [com.goldsign.esmcs.ftp.CommuFtp.ftpGetFileSingle(CommuFtp.java:231)] - 重试3次后，Ftp 仍然不能连接或登陆127.0.0.1! 
+2013-09-17 15:43:32:ERROR [com.goldsign.esmcs.thread.PhyLogicFileDownThread.run(PhyLogicFileDownThread.java:64)] - com.goldsign.esmcs.exception.FileFtpException: 获取文件ESPLM.20130917失败
+2013-09-17 15:43:33:ERROR [com.goldsign.esmcs.ftp.CommuFtp.ftpGetFileSingle(CommuFtp.java:231)] - 重试3次后，Ftp 仍然不能连接或登陆127.0.0.1! 
+2013-09-17 15:43:33:ERROR [com.goldsign.esmcs.thread.ComFileDownThread.run(ComFileDownThread.java:98)] - com.goldsign.esmcs.exception.FileFtpException: 获取文件PRM107.0601.20130917.01       失败
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.application.PKApplication.closeRwPort(PKApplication.java:314)] - 关闭读头端口成功！
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:744)] - 关闭读头端口成功！
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.application.PKApplication.closeEsBoxPort(PKApplication.java:292)] - 关闭ES票箱端口成功！
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.application.Application.closeEsDevicePort(Application.java:795)] - 关闭Es打印机端口成功！
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:752)] - 关闭ES端口成功！
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.service.impl.CommuService.updateDeviceStatus(CommuService.java:638)] - 更改设备状态成功！
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:760)] - 更改设备成功！
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:768)] - 关闭通讯成功！
+2013-09-17 15:43:36:INFO  [com.goldsign.esmcs.application.Application.stopFileDownServer(Application.java:487)] - 停止文件下载服务线程！
+2013-09-17 15:43:36:ERROR [com.goldsign.esmcs.thread.ComFileDownThread.threadSleep(ComFileDownThread.java:115)] - java.lang.InterruptedException: sleep interrupted
+2013-09-17 15:43:40:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.application.Application.startFileDownServer(Application.java:468)] - 启动文件下载服务线程！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.service.impl.CommuService.openCommu(CommuService.java:158)] - SOCKET通讯端口成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:4
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.service.impl.CommuService.downAuditAndErrorFile(CommuService.java:196)] - 下载审计和错误文件成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:124
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryBlacklist(CommuService.java:360)] - 下载黑名单成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:34
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.service.impl.CommuService.querySamlist(CommuService.java:405)] - 下载SAM列表成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:14
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryParams(CommuService.java:236)] - 下载城市代码成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:446
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryCardTypes(CommuService.java:315)] - 下载票种成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:464
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.service.impl.CommuService.queryTicketPrice(CommuService.java:275)] - 下载票价成功！
+2013-09-17 15:43:40:INFO  [com.goldsign.esmcs.application.Application.startPhyLogicFileThread(Application.java:451)] - 启动物理卡号与逻辑卡号对照文件下载服务线程！
+2013-09-17 15:43:42:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试2 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:42:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试2 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:44:INFO  [com.goldsign.esmcs.commu.EsCommuClient.read(EsCommuClient.java:141)] - 长度:5
+2013-09-17 15:43:44:INFO  [com.goldsign.esmcs.service.impl.CommuService.loginOperator(CommuService.java:90)] - 验证操作员成功！
+2013-09-17 15:43:44:INFO  [com.goldsign.esmcs.service.impl.CommuService.updateDeviceStatus(CommuService.java:638)] - 更改设备状态成功！
+2013-09-17 15:43:44:INFO  [com.goldsign.esmcs.application.Application.updateDeviceStatusLogin(Application.java:706)] - 更改设备状态成功!
+2013-09-17 15:43:50:INFO  [com.goldsign.esmcs.application.PKApplication.openEsChannelPort(PKApplication.java:164)] - 打开通道端口成功！
+2013-09-17 15:43:50:ERROR [com.goldsign.esmcs.service.impl.PkEsDeviceService.openBoxPort(PkEsDeviceService.java:61)] - 初始化票箱失败
+2013-09-17 15:43:50:ERROR [com.goldsign.esmcs.application.Application.openEsDevicePort(Application.java:604)] - 
+2013-09-17 15:43:53:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试1 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:43:53:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试1 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:44:04:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试0 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:44:04:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:153)] - Ftp 建立连接或登陆127.0.0.1错误! 将重试0 次! java.net.ConnectException: Connection refused: connect
+2013-09-17 15:44:04:INFO  [com.goldsign.esmcs.application.PKApplication.closeRwPort(PKApplication.java:314)] - 关闭读头端口成功！
+2013-09-17 15:44:04:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:744)] - 关闭读头端口成功！
+2013-09-17 15:44:05:INFO  [com.goldsign.esmcs.application.PKApplication.closeEsBoxPort(PKApplication.java:292)] - 关闭ES票箱端口成功！
+2013-09-17 15:44:05:INFO  [com.goldsign.esmcs.application.Application.closeEsDevicePort(Application.java:795)] - 关闭Es打印机端口成功！
+2013-09-17 15:44:05:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:752)] - 关闭ES端口成功！
+2013-09-17 15:44:05:INFO  [com.goldsign.esmcs.service.impl.CommuService.updateDeviceStatus(CommuService.java:638)] - 更改设备状态成功！
+2013-09-17 15:44:05:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:760)] - 更改设备成功！
+2013-09-17 15:44:05:INFO  [com.goldsign.esmcs.application.Application.exitEventCallBack(Application.java:768)] - 关闭通讯成功！
+2013-09-17 15:44:05:INFO  [com.goldsign.esmcs.application.Application.stopFileDownServer(Application.java:487)] - 停止文件下载服务线程！
+2013-09-17 15:44:05:ERROR [com.goldsign.esmcs.ftp.CommuFtp.threadSleep(CommuFtp.java:112)] - java.lang.InterruptedException: sleep interrupted
+2013-09-17 15:44:05:ERROR [com.goldsign.esmcs.ftp.CommuFtp.ftpGetFileSingle(CommuFtp.java:231)] - 重试3次后，Ftp 仍然不能连接或登陆127.0.0.1! 
+2013-09-17 15:44:05:ERROR [com.goldsign.esmcs.thread.ComFileDownThread.run(ComFileDownThread.java:98)] - com.goldsign.esmcs.exception.FileFtpException: 获取文件PRM107.0601.20130917.01       失败

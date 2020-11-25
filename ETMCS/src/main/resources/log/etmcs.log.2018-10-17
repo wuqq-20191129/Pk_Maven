@@ -1,0 +1,2 @@
+2018-10-17 10:07:41:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-10-17 10:07:41:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！

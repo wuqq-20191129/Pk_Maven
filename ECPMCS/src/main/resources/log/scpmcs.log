@@ -1,0 +1,61 @@
+2020-09-07 14:30:57:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-09-07 14:30:57:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-09-07 14:30:57:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:22)] - driverName: oracle.jdbc.driver.OracleDriver
+2020-09-07 14:30:57:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:23)] - URL: jdbc:oracle:thin:@172.20.19.29:1521:wacc
+2020-09-07 14:30:57:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:26)] - maxActive: 40
+2020-09-07 14:30:57:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:27)] - maxIdle: 20
+2020-09-07 14:30:57:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:28)] - maxWait: 20000
+2020-09-07 14:31:28:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.isDeviceConfigureRight(ParamDao.java:128)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = '172.20.18.14'  and DEV_TYPE_ID = '09'  and DEVICE_ID = '199' 
+2020-09-07 14:31:28:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.isDeviceConfigureRight(ParamDao.java:143)] - 测试sqlStr:false
+2020-09-07 14:32:45:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-09-07 14:32:45:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-09-07 14:32:45:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:22)] - driverName: oracle.jdbc.driver.OracleDriver
+2020-09-07 14:32:45:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:23)] - URL: jdbc:oracle:thin:@172.20.19.29:1521:wacc
+2020-09-07 14:32:45:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:26)] - maxActive: 40
+2020-09-07 14:32:45:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:27)] - maxIdle: 20
+2020-09-07 14:32:45:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:28)] - maxWait: 20000
+2020-09-07 14:32:56:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.isDeviceConfigureRight(ParamDao.java:128)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = '172.20.18.14'  and DEV_TYPE_ID = '09'  and DEVICE_ID = '111' 
+2020-09-07 14:32:56:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.isDeviceConfigureRight(ParamDao.java:143)] - 测试sqlStr:false
+2020-09-07 14:35:42:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-09-07 14:35:43:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-09-07 14:35:43:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:22)] - driverName: oracle.jdbc.driver.OracleDriver
+2020-09-07 14:35:43:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:23)] - URL: jdbc:oracle:thin:@172.20.19.29:1521:wacc
+2020-09-07 14:35:43:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:26)] - maxActive: 40
+2020-09-07 14:35:43:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:27)] - maxIdle: 20
+2020-09-07 14:35:43:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:28)] - maxWait: 20000
+2020-09-07 14:35:50:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.isDeviceConfigureRight(ParamDao.java:128)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = '172.20.18.14'  and DEV_TYPE_ID = '09'  and DEVICE_ID = '111' 
+2020-09-07 14:35:50:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.isDeviceConfigureRight(ParamDao.java:143)] - 测试sqlStr:true
+2020-09-07 14:35:51:INFO  [com.goldsign.ecpmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:72)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_ecp_pub_flag
+2020-09-07 14:35:51:INFO  [com.goldsign.ecpmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:72)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2020-09-07 14:35:51:INFO  [com.goldsign.ecpmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:43)] - sqlStr:SELECT CARD_MAIN_ID||CARD_SUB_ID code,CARD_SUB_NAME code_text FROM w_acc_st.w_op_prm_card_sub WHERE trim(record_flag)='3'
+2020-09-07 14:35:51:INFO  [com.goldsign.ecpmcs.application.Application.loadPrintErrCode(Application.java:464)] - 加载打印错误代码成功！
+2020-09-07 14:35:51:INFO  [com.goldsign.ecpmcs.application.Application.loadPrintTemplate(Application.java:476)] - 加载打印模板成功！
+2020-09-07 14:36:05:DEBUG [com.goldsign.ecpmcs.dll.ZBRPrinterDll.loadZBRPrinterDll(ZBRPrinterDll.java:31)] - ZBRPrinter.dllDLL加载成功！
+2020-09-07 14:36:05:DEBUG [com.goldsign.ecpmcs.dll.ZBRPrinterDll.getSDKVer(ZBRPrinterDll.java:893)] - ZBRPRNGetSDKVer:4.1.2103
+2020-09-07 14:36:05:DEBUG [com.goldsign.ecpmcs.dll.ZBRPrinterDll.loadZBRPrinterDll(ZBRPrinterDll.java:31)] - ZBRPrinter.dllDLL加载成功！
+2020-09-07 14:36:05:DEBUG [com.goldsign.ecpmcs.dll.ZBRGraphicsDll.getSDKVer(ZBRGraphicsDll.java:364)] - ZBRGDIGetSDKVer:4.1.1
+2020-09-07 14:36:06:INFO  [com.goldsign.ecpmcs.dao.impl.EmployeePrintDao.getPrintList(EmployeePrintDao.java:51)] - sqlStr:select name, gender, identity_id, identity_type, card_type, photo_name, print_oper, print_time, issue_time, department, position, logical_id, employee_class from w_acc_tk.w_ic_ecp_print_list where 1=1 and to_char(print_time,'yyyyMMdd') >= '20200907' and to_char(print_time,'yyyyMMdd') <= '20200907' and print_oper like '%吴强强%' order by print_time desc
+2020-09-07 14:36:12:DEBUG [com.goldsign.ecpmcs.dll.ZBRPrinterDll.loadZBRPrinterDll(ZBRPrinterDll.java:31)] - ZBRPrinter.dllDLL加载成功！
+2020-09-07 14:36:12:DEBUG [com.goldsign.ecpmcs.dll.ZBRPrinterDll.getSDKVer(ZBRPrinterDll.java:893)] - ZBRPRNGetSDKVer:4.1.2103
+2020-09-07 14:36:12:DEBUG [com.goldsign.ecpmcs.dll.ZBRPrinterDll.loadZBRPrinterDll(ZBRPrinterDll.java:31)] - ZBRPrinter.dllDLL加载成功！
+2020-09-07 14:36:12:DEBUG [com.goldsign.ecpmcs.dll.ZBRGraphicsDll.getSDKVer(ZBRGraphicsDll.java:364)] - ZBRGDIGetSDKVer:4.1.1
+2020-09-07 14:36:12:INFO  [com.goldsign.ecpmcs.dao.impl.EmployeePrintDao.getPrintList(EmployeePrintDao.java:51)] - sqlStr:select name, gender, identity_id, identity_type, card_type, photo_name, print_oper, print_time, issue_time, department, position, logical_id, employee_class from w_acc_tk.w_ic_ecp_print_list where 1=1 and to_char(print_time,'yyyyMMdd') >= '20200907' and to_char(print_time,'yyyyMMdd') <= '20200907' and print_oper like '%吴强强%' order by print_time desc
+2020-09-07 14:36:37:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.getCardTypeVos(ParamDao.java:46)] - sqlStr:select a.card_main_id,b.card_main_name,a.card_sub_id,a.card_sub_name from w_acc_st.w_op_prm_card_sub a,w_acc_st.w_op_prm_card_main b where a.card_main_id=b.card_main_id(+) and a.record_flag='3' and b.record_flag='3'
+2020-09-07 14:36:37:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.getIdentifyTypeVos(ParamDao.java:82)] - sqlStr:select type,code,code_text from w_acc_tk.w_ic_ecp_pub_flag where type='1' order by code
+2020-09-07 16:39:46:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-09-07 16:39:46:ERROR [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:49)] - org.xml.sax.SAXException: SAX2 driver class org.apache.xerces.parsers.SAXParser not found
+java.lang.ClassNotFoundException: org.apache.xerces.parsers.SAXParser
+2020-09-07 16:39:46:ERROR [com.goldsign.ecpmcs.application.Application.loadConfigAndLogFile(Application.java:125)] - com.goldsign.csfrm.exception.LoadException: 加载配置文件失败！
+2020-09-07 16:50:14:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-09-07 16:50:14:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-09-07 16:50:14:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:22)] - driverName: oracle.jdbc.driver.OracleDriver
+2020-09-07 16:50:14:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:23)] - URL: jdbc:oracle:thin:@172.20.19.29:1521:wacc
+2020-09-07 16:50:14:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:26)] - maxActive: 40
+2020-09-07 16:50:14:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:27)] - maxIdle: 20
+2020-09-07 16:50:14:DEBUG [com.goldsign.ecpmcs.util.DbcpHelper.<init>(DbcpHelper.java:28)] - maxWait: 20000
+2020-09-07 16:50:27:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.isDeviceConfigureRight(ParamDao.java:128)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = '172.20.18.14'  and DEV_TYPE_ID = '09'  and DEVICE_ID = '111' 
+2020-09-07 16:50:27:INFO  [com.goldsign.ecpmcs.dao.impl.ParamDao.isDeviceConfigureRight(ParamDao.java:143)] - 测试sqlStr:true
+2020-09-07 16:50:27:INFO  [com.goldsign.ecpmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:72)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_ecp_pub_flag
+2020-09-07 16:50:27:INFO  [com.goldsign.ecpmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:72)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2020-09-07 16:50:28:INFO  [com.goldsign.ecpmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:43)] - sqlStr:SELECT CARD_MAIN_ID||CARD_SUB_ID code,CARD_SUB_NAME code_text FROM w_acc_st.w_op_prm_card_sub WHERE trim(record_flag)='3'
+2020-09-07 16:50:28:INFO  [com.goldsign.ecpmcs.application.Application.loadPrintErrCode(Application.java:464)] - 加载打印错误代码成功！

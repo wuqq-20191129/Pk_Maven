@@ -1,0 +1,33 @@
+2017-12-08 09:43:15:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2017-12-08 09:43:15:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2017-12-08 09:43:15:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2017-12-08 09:43:15:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:585)] - 打开SOCKET通讯成功！
+2017-12-08 09:43:15:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,30
+2017-12-08 09:43:15:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:9
+2017-12-08 09:43:15:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true
+2017-12-08 09:43:15:INFO  [com.goldsign.etmcs.service.impl.KmsService.setKmsLock(KmsService.java:150)] - 设置加密机锁成功！
+2017-12-08 09:43:16:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,31
+2017-12-08 09:43:16:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:3
+2017-12-08 09:43:16:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true
+2017-12-08 09:43:46:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2017-12-08 09:43:46:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2017-12-08 09:43:46:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2017-12-08 09:43:46:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2017-12-08 09:43:46:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2017-12-08 09:43:46:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:121)] - ES通讯测试连接，结果：true
+2017-12-08 09:44:46:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:121)] - ES通讯测试连接，结果：true
+2017-12-08 09:45:10:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:78)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE where 1=1  and (return_time >= to_date('20150108 00:00:00','yyyyMMdd hh24:mi:ss') or make_time >= to_date('20150108 00:00:00','yyyyMMdd hh24:mi:ss')) and (return_time <= to_date('20150308 23:59:59','yyyyMMdd hh24:mi:ss') or make_time <= to_date('20150308 23:59:59','yyyyMMdd hh24:mi:ss'))
+2017-12-08 09:45:46:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:121)] - ES通讯测试连接，结果：true
+2017-12-08 09:46:45:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:98)] - ES通讯关闭，成功！
+2017-12-08 09:46:45:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:388)] - 关闭通讯成功！
+2017-12-08 09:46:52:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2017-12-08 09:46:52:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:585)] - 打开SOCKET通讯成功！
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,30
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:9
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.service.impl.KmsService.setKmsLock(KmsService.java:150)] - 设置加密机锁成功！
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,31
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:3
+2017-12-08 09:46:52:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true

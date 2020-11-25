@@ -1,0 +1,6 @@
+2014-03-25 09:12:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2014-03-25 09:12:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2014-03-25 09:12:14:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:154)] - Ftp 建立连接或登陆10.99.1.120错误! 将重试2 次! java.net.SocketTimeoutException: connect timed out
+2014-03-25 09:12:22:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:154)] - Ftp 建立连接或登陆10.99.1.120错误! 将重试1 次! java.net.SocketTimeoutException: connect timed out
+2014-03-25 09:12:30:ERROR [com.goldsign.esmcs.ftp.CommuFtp.getFtpClient(CommuFtp.java:154)] - Ftp 建立连接或登陆10.99.1.120错误! 将重试0 次! java.net.SocketTimeoutException: connect timed out
+2014-03-25 09:12:33:ERROR [com.goldsign.esmcs.ftp.CommuFtp.testFtpLogin(CommuFtp.java:408)] - 测试FTP用户路径连接：com.goldsign.esmcs.exception.FileFtpException: 重试3次后，Ftp 仍然不能连接或登陆10.99.1.120! 

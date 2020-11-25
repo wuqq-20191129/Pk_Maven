@@ -1,0 +1,41 @@
+2018-02-12 16:51:43:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-02-12 16:51:43:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-02-12 16:51:43:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-02-12 16:51:43:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:585)] - 打开SOCKET通讯成功！
+2018-02-12 16:51:43:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,30
+2018-02-12 16:51:44:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:9
+2018-02-12 16:51:44:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true
+2018-02-12 16:51:44:INFO  [com.goldsign.etmcs.service.impl.KmsService.setKmsLock(KmsService.java:150)] - 设置加密机锁成功！
+2018-02-12 16:51:44:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,31
+2018-02-12 16:51:44:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:3
+2018-02-12 16:51:44:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true
+2018-02-12 16:53:13:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-02-12 16:53:13:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-02-12 16:53:13:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-02-12 16:53:13:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:588)] - 打开SOCKET通讯成功！
+2018-02-12 16:53:13:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,30
+2018-02-12 16:53:13:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:9
+2018-02-12 16:53:13:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true
+2018-02-12 16:53:13:INFO  [com.goldsign.etmcs.service.impl.KmsService.setKmsLock(KmsService.java:150)] - 设置加密机锁成功！
+2018-02-12 16:53:14:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,31
+2018-02-12 16:53:14:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:3
+2018-02-12 16:53:14:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true
+2018-02-12 16:53:23:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-02-12 16:53:23:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-02-12 16:53:23:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-02-12 16:53:23:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-02-12 16:53:23:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-02-12 16:53:23:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:121)] - ES通讯测试连接，结果：true
+2018-02-12 16:53:34:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:98)] - ES通讯关闭，成功！
+2018-02-12 16:53:34:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:391)] - 关闭通讯成功！
+2018-02-12 17:23:55:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-02-12 17:23:56:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:588)] - 打开SOCKET通讯成功！
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,30
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:9
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.service.impl.KmsService.setKmsLock(KmsService.java:150)] - 设置加密机锁成功！
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.commu.EsCommuClient.send(EsCommuClient.java:90)] - 发送数据:39,38,31
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.commu.EsCommuClient.read(EsCommuClient.java:159)] - 长度:3
+2018-02-12 17:23:56:INFO  [com.goldsign.etmcs.service.impl.CommuService.setKmsLock(CommuService.java:163)] - 锁加密机,结果：true

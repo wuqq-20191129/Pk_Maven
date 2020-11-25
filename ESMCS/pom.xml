@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>pk</artifactId>
+        <groupId>com.wuqq</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ESMCS</artifactId>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <groupId>com.wuqq</groupId>
+    <version>1.0-SNAPSHOT</version>
+
+
+        <dependencies>
+            <dependency>
+                <artifactId>CSFRM</artifactId>
+                <groupId>com.wuqq</groupId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <artifactId>ESPTJNI</artifactId>
+                <groupId>com.wuqq</groupId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <artifactId>ESRWJNI</artifactId>
+                <groupId>com.wuqq</groupId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+
+            <dependency>
+                <artifactId>KMSCOMMU</artifactId>
+                <groupId>com.wuqq</groupId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <artifactId>PUBLIC</artifactId>
+                <groupId>com.wuqq</groupId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <artifactId>RWCOMMU</artifactId>
+                <groupId>com.wuqq</groupId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>org.netbeans.external</groupId>
+                <artifactId>AbsoluteLayout</artifactId>
+                <version>RELEASE113</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.netbeans.external</groupId>
+                <artifactId>swing-layout-1.0.4</artifactId>
+                <version>RELEASE80</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-logging</groupId>
+                <artifactId>commons-logging</artifactId>
+                <version>1.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-collections4</artifactId>
+                <version>4.1</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-net</groupId>
+                <artifactId>commons-net</artifactId>
+                <version>2.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-dbcp</groupId>
+                <artifactId>commons-dbcp</artifactId>
+                <version>20030825.184428</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-discovery</groupId>
+                <artifactId>commons-discovery</artifactId>
+                <version>0.2</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-pool</groupId>
+                <artifactId>commons-pool</artifactId>
+                <version>1.6</version>
+            </dependency>
+
+            <dependency>
+                <artifactId>GoldsignLibDb</artifactId>
+                <groupId>GoldsignLibDb</groupId>
+                <version>1.0</version>
+                <scope>system</scope>
+                <systemPath>${project.basedir}/src/main/resources/lib/GoldsignLibDB.jar</systemPath>
+            </dependency>
+
+            <dependency>
+                <artifactId>jna</artifactId>
+                <groupId>jna</groupId>
+                <version>1.0</version>
+                <scope>system</scope>
+                <systemPath>${project.basedir}/src/main/resources/lib/jna.jar</systemPath>
+            </dependency>
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+            </dependency>
+
+        </dependencies>
+</project>

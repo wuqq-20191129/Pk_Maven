@@ -1,0 +1,7 @@
+2020-09-30 14:19:09:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-09-30 14:19:10:ERROR [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:52)] - java.io.FileNotFoundException: config\CommonConfig.xml (系统找不到指定的路径。)
+2020-09-30 14:19:10:ERROR [com.goldsign.sammcs.application.Application.loadConfigAndLogFile(Application.java:144)] - com.goldsign.csfrm.exception.LoadException: 加载配置文件失败！
+2020-09-30 14:21:05:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-09-30 14:21:05:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-09-30 14:21:57:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:710)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-09-30 14:21:57:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:725)] - 测试sqlStr:false

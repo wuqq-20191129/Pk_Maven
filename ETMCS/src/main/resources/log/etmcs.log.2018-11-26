@@ -1,0 +1,285 @@
+2018-11-26 08:59:33:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 08:59:33:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 08:59:33:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 08:59:33:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:01:40:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:01:40:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:01:40:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:01:40:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:01:48:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-11-26 09:01:48:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-11-26 09:01:48:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-11-26 09:01:48:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-11-26 09:01:48:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-11-26 09:01:48:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-11-26 09:03:01:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:03:01:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:03:01:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:03:01:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:03:10:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-11-26 09:03:10:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-11-26 09:03:10:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-11-26 09:03:10:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-11-26 09:03:10:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-11-26 09:03:10:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-11-26 09:03:13:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-11-26 09:03:13:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！
+2018-11-26 09:04:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:04:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:04:08:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:04:08:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:04:18:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-11-26 09:04:18:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-11-26 09:04:18:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-11-26 09:04:18:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-11-26 09:04:18:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-11-26 09:04:18:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-11-26 09:05:19:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:05:19:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:05:19:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:05:19:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:14:09:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:14:09:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:14:09:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:14:09:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:28:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:28:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:28:09:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:28:09:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:29:13:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:29:13:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:29:13:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:29:13:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:31:44:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:31:44:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:31:44:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:31:44:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:32:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:32:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:32:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:32:51:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:33:18:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:33:18:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:33:18:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:33:18:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:33:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:33:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:33:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:33:51:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:37:14:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:37:14:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:37:14:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:37:14:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:38:10:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:38:10:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:38:10:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:38:10:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:42:02:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:42:02:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:42:02:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:42:02:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:42:14:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:42:14:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:42:14:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:42:14:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:44:34:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:44:34:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:44:34:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:44:34:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:45:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:45:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:45:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:45:51:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:47:40:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:47:41:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:47:41:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:47:41:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:49:09:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:49:09:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:49:09:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:49:09:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:52:33:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:52:33:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:52:33:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:52:33:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 09:53:01:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 09:53:01:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 09:53:01:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 09:53:01:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:00:28:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:00:28:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:00:28:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:00:28:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:01:58:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:01:58:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:01:58:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:01:58:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:25:03:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:25:03:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:25:03:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:25:03:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:26:53:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:26:53:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:26:53:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:26:53:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:28:37:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:28:37:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:28:37:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:28:37:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:31:01:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:31:01:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:31:01:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:31:01:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:32:37:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:32:37:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:32:37:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:32:37:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:33:49:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:33:49:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:33:49:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:33:49:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:37:32:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:37:33:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:37:33:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:37:33:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:38:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:38:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:38:08:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:38:08:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:41:42:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:41:42:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:41:42:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:41:42:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:43:35:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:43:35:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:43:35:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:43:35:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:43:42:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:43:42:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:43:42:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:43:42:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:53:48:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:53:48:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:53:49:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:53:49:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:56:53:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:56:53:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:56:53:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:56:53:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:57:00:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:57:00:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:57:00:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:57:00:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:58:29:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:58:29:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:58:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:58:29:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 10:58:46:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 10:58:46:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 10:58:46:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 10:58:46:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 11:09:59:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 11:09:59:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 11:09:59:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 11:09:59:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 11:25:37:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 11:25:37:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 11:25:37:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 11:25:37:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 11:25:45:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-11-26 11:25:45:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-11-26 11:25:45:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-11-26 11:25:45:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-11-26 11:25:45:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-11-26 11:25:45:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-11-26 11:25:48:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-11-26 11:25:48:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！
+2018-11-26 14:12:12:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 14:12:12:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 14:12:12:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 14:12:12:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 14:23:05:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 14:23:05:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 14:23:05:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 14:23:05:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 14:36:03:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 14:36:03:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 14:36:03:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 14:36:03:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 14:37:21:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 14:37:21:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 14:37:21:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 14:37:21:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 14:43:00:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 14:43:00:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 14:43:00:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 14:43:00:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 15:04:45:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 15:04:45:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 15:04:45:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 15:04:45:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 15:07:30:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 15:07:30:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 15:07:30:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 15:07:30:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 15:12:54:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 15:12:54:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 15:12:54:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 15:12:54:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 15:13:32:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 15:13:33:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 15:13:33:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 15:13:33:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 15:13:41:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-11-26 15:13:41:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-11-26 15:13:41:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-11-26 15:13:41:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-11-26 15:13:41:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-11-26 15:13:41:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-11-26 15:14:09:INFO  [com.goldsign.etmcs.util.CurrentConnectionStatusUtil.isEsCommuConnected(CurrentConnectionStatusUtil.java:59)] - ES通讯SOCKET端口成功！
+2018-11-26 15:14:10:INFO  [com.goldsign.etmcs.util.CurrentConnectionStatusUtil.isKmsConnected(CurrentConnectionStatusUtil.java:109)] - 加密机连接失败！
+2018-11-26 15:14:19:INFO  [com.goldsign.etmcs.util.CurrentConnectionStatusUtil.isEsCommuConnected(CurrentConnectionStatusUtil.java:59)] - ES通讯SOCKET端口成功！
+2018-11-26 15:14:20:INFO  [com.goldsign.etmcs.util.CurrentConnectionStatusUtil.isKmsConnected(CurrentConnectionStatusUtil.java:109)] - 加密机连接失败！
+2018-11-26 15:14:24:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-11-26 15:14:24:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！
+2018-11-26 15:24:40:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 15:24:40:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 15:24:40:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 15:24:40:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 15:24:47:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:832)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-11-26 15:24:47:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - 测试sqlStr:false
+2018-11-26 15:25:07:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 15:25:08:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 15:25:08:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 15:25:08:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-26 15:25:15:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:832)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-11-26 15:25:15:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - 测试sqlStr:true
+2018-11-26 15:25:15:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-11-26 15:25:15:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-11-26 15:25:15:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-11-26 15:25:15:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-11-26 15:25:15:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-11-26 15:25:15:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-11-26 15:25:18:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-11-26 15:25:18:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！
+2018-11-26 15:51:44:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-26 15:51:44:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-26 15:51:45:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:75)] - SOCKET通讯端口失败！
+2018-11-26 15:51:45:ERROR [com.goldsign.etmcs.application.Application.openCommu(Application.java:599)] - 打开SOCKET通讯失败:打开SOCKET通讯异常，请联系管理员!
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:832)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - 测试sqlStr:true
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：false
+2018-11-26 15:51:56:INFO  [com.goldsign.etmcs.thread.EsCommuMonitorThread.run(EsCommuMonitorThread.java:49)] - 重新连接ES通讯...
+2018-11-26 15:51:57:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:75)] - SOCKET通讯端口失败！
+2018-11-26 15:52:57:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：false
+2018-11-26 15:52:57:INFO  [com.goldsign.etmcs.thread.EsCommuMonitorThread.run(EsCommuMonitorThread.java:49)] - 重新连接ES通讯...
+2018-11-26 15:52:57:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-26 15:52:57:INFO  [com.goldsign.etmcs.thread.EsCommuMonitorThread.run(EsCommuMonitorThread.java:53)] - 成功重新连接ES通讯！
+2018-11-26 15:53:57:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-11-26 15:54:09:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-11-26 15:54:09:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！

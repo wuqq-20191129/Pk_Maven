@@ -1,0 +1,206 @@
+2018-12-26 08:41:16:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-12-26 08:41:16:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-12-26 08:41:16:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-12-26 08:41:16:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-12-26 08:44:47:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-12-26 08:44:47:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-12-26 08:44:47:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-12-26 08:44:47:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-12-26 08:44:55:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:832)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-12-26 08:44:55:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - 测试sqlStr:true
+2018-12-26 08:44:55:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-12-26 08:44:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-12-26 08:44:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-12-26 08:44:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-12-26 08:44:56:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-12-26 08:44:56:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:45:23:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:78)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE where 1=1  and (return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') or make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss')) and (return_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss') or make_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss'))
+2018-12-26 08:45:47:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCardsCount(MakeCardDao.java:302)] - sqlStr:select COUNT(1) count,decode(use_state,1,'已退卡','0','已发卡','')use_state_desc,use_state from W_ACC_TK.W_IC_ET_ISSUE where 1=1  and (return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') or make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss')) and (return_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss') or make_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss'))GROUP BY use_state
+2018-12-26 08:45:56:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:46:08:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:78)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE where 1=1  and (return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') or make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss')) and (return_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss') or make_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss'))
+2018-12-26 08:46:18:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-12-26 08:46:18:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！
+2018-12-26 08:46:47:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-12-26 08:46:47:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-12-26 08:46:47:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-12-26 08:46:47:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-12-26 08:46:55:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:832)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-12-26 08:46:55:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - 测试sqlStr:true
+2018-12-26 08:46:55:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-12-26 08:46:55:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-12-26 08:46:55:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-12-26 08:46:55:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-12-26 08:46:55:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-12-26 08:46:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:47:01:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:78)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE where 1=1  and use_state='1' and return_time >= to_date('20181226 00:00:00','yyyyMMdd hh24:mi:ss') and return_time <= to_date('20181226 23:59:59','yyyyMMdd hh24:mi:ss')
+2018-12-26 08:47:18:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:78)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE where 1=1  and use_state='1' and return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') and return_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss')
+2018-12-26 08:47:19:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:78)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE where 1=1  and use_state='1' and return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') and return_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss')
+2018-12-26 08:47:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:48:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:49:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:50:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:51:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:52:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:53:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:54:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:55:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:56:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:57:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:58:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 08:59:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:00:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:01:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:02:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:03:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:04:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:05:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:06:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:07:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:08:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:09:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:10:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:11:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:12:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:13:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:14:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:15:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:16:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:17:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:18:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:19:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:20:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:21:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:22:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:23:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:24:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:25:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:26:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:27:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:28:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:29:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:30:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:31:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:32:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:33:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:34:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:35:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:36:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:37:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:38:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:39:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:40:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:41:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:42:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:43:17:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-12-26 09:43:17:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-12-26 09:43:17:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-12-26 09:43:17:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-12-26 09:43:24:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:842)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-12-26 09:43:24:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:858)] - 测试sqlStr:true
+2018-12-26 09:43:24:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-12-26 09:43:24:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-12-26 09:43:24:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-12-26 09:43:24:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-12-26 09:43:24:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-12-26 09:43:24:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:43:46:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:88)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE o where 1=1  and (o.return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') or o.make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss')) and (o.return_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss') or o.make_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss'))order by o.employee_id
+2018-12-26 09:44:02:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:88)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE o where 1=1  and o.use_state='0' and o.make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') and o.make_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss')order by o.employee_id
+2018-12-26 09:44:07:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:88)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE o where 1=1  and o.use_state='1' and o.return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') and o.return_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss')order by o.employee_id
+2018-12-26 09:44:11:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:88)] - sqlStr:select o.* from  (select count(*) as num,t.employee_id from W_ACC_TK.W_IC_ET_ISSUE t  group by t.employee_id)  s, W_ACC_TK.W_IC_ET_ISSUE o  where s.num > 1 and o.employee_id = s.employee_id  and (o.return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') or o.make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss')) and (o.return_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss') or o.make_time <= to_date('20180831 23:59:59','yyyyMMdd hh24:mi:ss'))order by o.employee_id
+2018-12-26 09:44:24:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 09:44:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-12-26 09:44:29:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！
+2018-12-26 10:04:54:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-12-26 10:04:55:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-12-26 10:04:55:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-12-26 10:04:55:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-12-26 10:05:02:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:846)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-12-26 10:05:02:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:862)] - 测试sqlStr:true
+2018-12-26 10:05:02:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-12-26 10:05:02:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-12-26 10:05:02:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-12-26 10:05:02:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-12-26 10:05:02:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-12-26 10:05:02:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:05:18:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:92)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE o where 1=1  and (o.return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') or o.make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss')) and (o.return_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss') or o.make_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss'))
+2018-12-26 10:06:02:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:07:02:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:07:21:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-12-26 10:07:21:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-12-26 10:07:21:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-12-26 10:07:21:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-12-26 10:07:28:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-12-26 10:07:28:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:864)] - 测试sqlStr:true
+2018-12-26 10:07:29:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-12-26 10:07:29:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-12-26 10:07:29:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-12-26 10:07:29:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-12-26 10:07:29:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-12-26 10:07:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:07:41:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:94)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE o where 1=1  and (o.return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') or o.make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss')) and (o.return_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss') or o.make_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss'))order by o.MAKE_TIME desc
+2018-12-26 10:07:54:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:94)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE o where 1=1  and o.use_state='0' and o.make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') and o.make_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss')order by o.MAKE_TIME desc
+2018-12-26 10:07:57:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:94)] - sqlStr:select o.* from  (select count(*) as num,t.employee_id from W_ACC_TK.W_IC_ET_ISSUE t  group by t.employee_id)  s, W_ACC_TK.W_IC_ET_ISSUE o  where s.num > 1 and o.employee_id = s.employee_id  and (o.return_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') or o.make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss')) and (o.return_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss') or o.make_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss'))order by o.employee_id,o.MAKE_TIME desc
+2018-12-26 10:08:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:09:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:10:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:11:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:12:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:13:29:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 10:13:39:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-12-26 10:13:39:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！
+2018-12-26 11:02:47:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - ������־�ļ��ɹ���
+2018-12-26 11:02:47:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - ���������ļ��ɹ���
+2018-12-26 11:02:47:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKETͨѶ�˿ڳɹ���
+2018-12-26 11:02:47:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - ��SOCKETͨѶ�ɹ���
+2018-12-26 11:02:57:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-12-26 11:02:57:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:864)] - ����sqlStr:true
+2018-12-26 11:02:57:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-12-26 11:02:57:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-12-26 11:02:57:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-12-26 11:02:57:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-12-26 11:02:57:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-12-26 11:02:57:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ESͨѶ�������ӣ������true
+2018-12-26 11:03:11:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ESͨѶ�رգ��ɹ���
+2018-12-26 11:03:11:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - �ر�ͨѶ�ɹ���
+2018-12-26 11:03:11:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - ������־�ļ��ɹ���
+2018-12-26 11:03:11:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - ���������ļ��ɹ���
+2018-12-26 11:03:11:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKETͨѶ�˿ڳɹ���
+2018-12-26 11:03:11:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - ��SOCKETͨѶ�ɹ���
+2018-12-26 11:06:38:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - ������־�ļ��ɹ���
+2018-12-26 11:06:38:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - ���������ļ��ɹ���
+2018-12-26 11:06:38:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKETͨѶ�˿ڳɹ���
+2018-12-26 11:06:38:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - ��SOCKETͨѶ�ɹ���
+2018-12-26 11:06:50:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-12-26 11:06:50:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:864)] - ����sqlStr:true
+2018-12-26 11:06:51:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-12-26 11:06:51:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-12-26 11:06:51:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-12-26 11:06:51:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-12-26 11:06:51:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-12-26 11:06:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ESͨѶ�������ӣ������true
+2018-12-26 11:07:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ESͨѶ�������ӣ������true
+2018-12-26 11:08:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ESͨѶ�������ӣ������true
+2018-12-26 11:09:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ESͨѶ�������ӣ������true
+2018-12-26 11:10:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ESͨѶ�������ӣ������true
+2018-12-26 11:11:37:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ESͨѶ�رգ��ɹ���
+2018-12-26 11:11:37:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - �ر�ͨѶ�ɹ���
+2018-12-26 11:11:38:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - ������־�ļ��ɹ���
+2018-12-26 11:11:38:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - ���������ļ��ɹ���
+2018-12-26 11:11:38:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKETͨѶ�˿ڳɹ���
+2018-12-26 11:11:38:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - ��SOCKETͨѶ�ɹ���
+2018-12-26 11:12:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-12-26 11:12:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-12-26 11:12:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-12-26 11:12:51:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-12-26 11:12:58:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:849)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-12-26 11:12:58:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:865)] - 测试sqlStr:true
+2018-12-26 11:12:58:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTablePubFlag(UtilDao.java:74)] - sqlStr:SELECT type,code,code_text FROM w_acc_tk.w_ic_et_pub_flag
+2018-12-26 11:12:58:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CARD_MAIN_ID code,CARD_MAIN_NAME code_text FROM w_acc_st.w_op_prm_card_main WHERE trim(record_flag)='3'
+2018-12-26 11:12:58:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT LINE_ID code,LINE_NAME code_text FROM w_acc_st.w_op_prm_line WHERE trim(record_flag)='3'
+2018-12-26 11:12:58:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT STATION_ID code,CHINESE_NAME code_text FROM w_acc_st.w_op_prm_station WHERE trim(record_flag)='3'
+2018-12-26 11:12:58:INFO  [com.goldsign.etmcs.dao.impl.UtilDao.getTableColumn(UtilDao.java:44)] - sqlStr:SELECT CODE code,CODE_TEXT code_text FROM w_acc_st.w_op_cod_pub_flag WHERE trim(TYPE)='26'
+2018-12-26 11:12:58:INFO  [com.goldsign.etmcs.service.impl.CommuService.isCommuOk(CommuService.java:122)] - ES通讯测试连接，结果：true
+2018-12-26 11:13:04:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:95)] - sqlStr:select o.* from  (select count(*) as num,t.employee_id from W_ACC_TK.W_IC_ET_ISSUE t  group by t.employee_id)  s, W_ACC_TK.W_IC_ET_ISSUE o  where s.num > 1 and o.employee_id = s.employee_id order by o.employee_id,o.MAKE_TIME desc
+2018-12-26 11:13:21:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.getMakeCards(MakeCardDao.java:95)] - sqlStr:select * from W_ACC_TK.W_IC_ET_ISSUE o where 1=1  and o.use_state='0' and o.make_time >= to_date('20180601 00:00:00','yyyyMMdd hh24:mi:ss') and o.make_time <= to_date('20180830 23:59:59','yyyyMMdd hh24:mi:ss')order by o.MAKE_TIME desc
+2018-12-26 11:13:23:INFO  [com.goldsign.etmcs.service.impl.CommuService.closeCommu(CommuService.java:99)] - ES通讯关闭，成功！
+2018-12-26 11:13:23:INFO  [com.goldsign.etmcs.application.Application.exitEventCallBack(Application.java:403)] - 关闭通讯成功！

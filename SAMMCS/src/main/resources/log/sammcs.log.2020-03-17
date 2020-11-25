@@ -1,0 +1,39 @@
+2020-03-17 11:08:54:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 11:08:55:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:32:21:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 15:32:21:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:32:35:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:705)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 15:32:35:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:720)] - 测试sqlStr:false
+2020-03-17 15:38:55:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 15:38:55:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:39:15:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:705)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 15:39:16:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:720)] - 测试sqlStr:false
+2020-03-17 15:39:42:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 15:39:42:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:41:36:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:705)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 15:41:36:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:720)] - 测试sqlStr:false
+2020-03-17 15:41:45:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 15:41:45:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:42:58:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 15:42:58:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:43:19:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:705)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 15:43:19:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:720)] - 测试sqlStr:false
+2020-03-17 15:43:39:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 15:43:39:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:44:41:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:705)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 15:46:19:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 15:46:20:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:46:36:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:708)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 15:46:36:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:723)] - 测试sqlStr:false
+2020-03-17 15:54:07:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 15:54:07:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 15:54:16:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:705)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 15:54:16:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:720)] - 测试sqlStr:true
+2020-03-17 16:43:30:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 16:43:30:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 16:43:37:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:705)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 16:43:37:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:720)] - 测试sqlStr:true
+2020-03-17 17:28:12:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-03-17 17:28:12:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-03-17 17:28:20:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:705)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-03-17 17:28:20:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:720)] - 测试sqlStr:true

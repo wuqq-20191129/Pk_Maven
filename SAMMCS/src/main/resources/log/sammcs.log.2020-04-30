@@ -1,0 +1,4 @@
+2020-04-30 10:44:35:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2020-04-30 10:44:35:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2020-04-30 10:44:49:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:710)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2020-04-30 10:44:49:INFO  [com.goldsign.sammcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:725)] - 测试sqlStr:true

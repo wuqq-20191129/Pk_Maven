@@ -1,0 +1,16 @@
+2018-11-16 09:47:33:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-16 09:47:33:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-16 09:47:33:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-16 09:47:33:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-16 09:48:24:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-16 09:48:24:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-16 09:48:24:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-16 09:48:24:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-16 09:50:05:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:832)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-11-16 09:50:05:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - 测试sqlStr:false
+2018-11-16 09:50:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadLogFile(ConfigFileService.java:100)] - 加载日志文件成功！
+2018-11-16 09:50:51:INFO  [com.goldsign.csfrm.service.impl.ConfigFileService.loadConfigAndLogFile(ConfigFileService.java:47)] - 加载配置文件成功！
+2018-11-16 09:50:51:INFO  [com.goldsign.etmcs.service.impl.CommuService.openCommu(CommuService.java:70)] - SOCKET通讯端口成功！
+2018-11-16 09:50:51:INFO  [com.goldsign.etmcs.application.Application.openCommu(Application.java:604)] - 打开SOCKET通讯成功！
+2018-11-16 09:50:58:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:832)] - sqlStr:select count(*) as total from w_acc_st.w_op_prm_dev_code_acc  where record_flag ='0'  and IP_ADDRESS = ?  and DEV_TYPE_ID =?   and DEVICE_ID = ? 
+2018-11-16 09:50:58:INFO  [com.goldsign.etmcs.dao.impl.MakeCardDao.isDeviceConfigureRight(MakeCardDao.java:848)] - 测试sqlStr:false

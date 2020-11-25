@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ESPKJNI" />
+        <module name="ESPKMCS" />
+        <module name="ESMCS" />
+        <module name="ECPMCS" />
+        <module name="ESPTJNI" />
+        <module name="CSFRM" />
+        <module name="PUBLIC" />
+        <module name="ESRWJNI" />
+        <module name="SAMMCS" />
+        <module name="KMSCOMMU" />
+        <module name="ETMCS" />
+        <module name="RWCOMMU" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ECPMCS" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
